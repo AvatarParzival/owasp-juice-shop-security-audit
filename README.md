@@ -284,24 +284,6 @@ The audit followed these steps:
 
 ## 11. Screenshot Evidence
 
-Screenshots used in the final report are stored in the `screenshots/` directory. The report PDF is stored in the `report/` directory.
-
-Recommended screenshot paths:
-
-```text
-screenshots/docker ps.jpg
-screenshots/localhost.jpg
-screenshots/03_project_structure.png.jpg
-screenshots/04_zap_started.png.jpg
-screenshots/05_zap_connected.png.jpg
-screenshots/06_network_tab.png.jpg
-screenshots/07_scan_running.png.jpg
-screenshots/08_zap_alerts.png.jpg
-screenshots/09-zap-sqli-alert.png.jpg
-screenshots/10-csp-header-not-set.png.jpg
-screenshots/11-application-error-disclosure.png.jpg
-```
-
 Main report file:
 
 ```text
@@ -312,20 +294,19 @@ Screenshot purpose:
 
 | Screenshot | Purpose |
 |---|---|
-| `screenshots/docker ps.jpg` | Shows Juice Shop Docker container running in Ubuntu VM |
-| `screenshots/localhost.jpg` | Shows Juice Shop accessible locally in browser |
-| `screenshots/03_project_structure.png.jpg` | Shows repository folder structure |
-| `screenshots/04_zap_started.png.jpg` | Shows OWASP ZAP started |
-| `screenshots/05_zap_connected.png.jpg` | Shows ZAP Manual Explore connected to Juice Shop |
-| `screenshots/06_network_tab.png.jpg` | Shows Firefox Developer Tools Network tab |
-| `screenshots/07_scan_running.png.jpg` | Shows ZAP automated scan running |
-| `screenshots/08_zap_alerts.png.jpg` | Shows ZAP alerts overview |
-| `screenshots/09-zap-sqli-alert.png.jpg` | Evidence for SQL Injection finding |
-| `screenshots/10-csp-header-not-set.png.jpg` | Evidence for CSP Header Not Set finding |
-| `screenshots/Error Handling1.jpg` | Evidence for Application Error Disclosure in Juice Shop |
-| `screenshots/Content-Security-Policy.jpg` | Evidence for Content Security Policy Missing |
-| `screenshots/Admin login using sql.jpg` | Admin loggedin in Juice Shop |
-| `screenshots/Admin login using sql.jpg` | Admin loggedin in Juice Shop |
+| ![Docker Container](screenshots/docker%20ps.jpg) | Shows Juice Shop Docker container running in Ubuntu VM |
+| ![Localhost](screenshots/localhost.jpg) | Shows Juice Shop accessible locally in browser |
+| ![Project Structure](screenshots/03_project_structure.png.jpg) | Shows repository folder structure |
+| ![ZAP Started](screenshots/04_zap_started.png.jpg) | Shows OWASP ZAP started |
+| ![ZAP Connected](screenshots/05_zap_connected.png.jpg) | Shows ZAP Manual Explore connected to Juice Shop |
+| ![Network Tab](screenshots/06_network_tab.png.jpg) | Shows Firefox Developer Tools Network tab |
+| ![ZAP Scan](screenshots/07_scan_running.png.jpg) | Shows ZAP automated scan running |
+| ![ZAP Alerts](screenshots/08_zap_alerts.png.jpg) | Shows ZAP alerts overview |
+| ![SQL Injection](screenshots/09-zap-sqli-alert.png.jpg) | Evidence for SQL Injection finding |
+| ![CSP Missing](screenshots/10-csp-header-not-set.png.jpg) | Evidence for CSP Header Not Set finding |
+| ![Error Disclosure](screenshots/Error%20Handling1.jpg) | Evidence for Application Error Disclosure |
+| ![Content Security Policy](screenshots/Content-Security-Policy.jpg) | Evidence for Missing Content Security Policy |
+| ![Admin Login](screenshots/Admin%20login%20using%20sql.jpg) | Evidence of successful SQL injection test in Juice Shop |
 
 
 ---
@@ -427,9 +408,9 @@ vortextech-cybersec-week3/
 ├── report/
 │   └── Vortex Week 3.pdf
 ├── screenshots/
-└── zap-report/
-    ├── zap-security-audit-report
-    └── zap-security-audit-report_d/
+├── zap-security-audit-report
+├── index.html
+└── zap-security-audit-report_d/
 ```
 
 ---
