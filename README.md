@@ -44,6 +44,14 @@ The audit focused on identifying, documenting, and manually verifying three vuln
 
 ---
 
+## Security Audit Report
+
+You can view the complete security audit report here:
+
+📄 [Vortex Week 3 Security Audit Report (PDF)](report/Vortex%20Week%203.pdf)
+
+---
+
 ## 2. Scope
 
 This security audit was performed only against a local instance of OWASP Juice Shop running inside an Ubuntu virtual machine.
@@ -283,13 +291,6 @@ The audit followed these steps:
 ---
 
 ## 11. Screenshot Evidence
-
-Main report file:
-
-```text
-report/Vortex Week 3.pdf
-```
-
 Screenshot purpose:
 
 | Screenshot | Purpose |
