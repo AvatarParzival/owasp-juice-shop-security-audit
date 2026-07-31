@@ -50,6 +50,11 @@ You can view the complete security audit report here:
 
 📄 [Vortex Week 3 Security Audit Report (PDF)](report/Vortex%20Week%203.pdf)
 
+🛡️ **OWASP ZAP Security Report:**  
+You can view the complete live ZAP scan report here:
+
+[🔗 View ZAP Report](https://avatarparzival.github.io/owasp-juice-shop-security-audit/)
+
 ---
 
 ## 2. Scope
