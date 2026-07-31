@@ -439,7 +439,7 @@ This audit was performed only on OWASP Juice Shop running locally inside an Ubun
 
 ## 🧑‍💻 Author
 
-**Parseltongue Password Security Suite** was created and maintained by **Abdullah Zubair**  
+**Basic Security Audit of OWASP Juice Shop** was created by **Abdullah Zubair**  
 - GitHub: [@AvatarParzival](https://github.com/AvatarParzival)
 - LinkedIn: [Abdullah Zubair](https://www.linkedin.com/in/abdullahzubairr)
 - Email: [abdullah69zubair@gmail.com](abdullah69zubair@gmail.com)
